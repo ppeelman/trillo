@@ -38,15 +38,15 @@ Grey dark 3: #999
   padding: 0;
 }
 
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; // 1rem = 16px * 62.5% = 10px
+}
+
 *,
 *::after,
 *::before {
   box-sizing: inherit;
-}
-
-html {
-  box-sizing: border-box;
-  font-size: 62.5%; // 1rem = 16px * 62.5% = 10px
 }
 
 body {
